@@ -29,23 +29,35 @@ You can change modes (GPT_gen, compenstae, wordnet) and CLIP models (ViT-B/32, V
 Modes: 
 
   wordnet: use WordNet as a dicttionary (WN in the paper)
+  
   GPT_gen: use GPT generated definitions
+  
     - Definitions/GPT_Definitions.json (DG in the paper)
+    
     - Definitions/GPT_Context_Definitions.json (CADG in the paper)
+    
   compensate: use GPT generated definitions for OOV cases 
+  
     - Definitions/GPT_Definitions.json (WN+DG in the paper)
+    
     - Definitions/GPT_Context_Definitions.json (WN+CADG in the paper)
     
 CLIP_MODEL = "ViT-B/32"
+
 dictionary_type = 'compensate' # GPT_gen (DG or CADG), compensate (WN+DG or WN+CADG), wordnet (WN)
 
 
 # Citing
 @article{kwon2023vision,
+
   title={Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information},
+  
   author={Kwon, Sunjae and Garodia, Rishabh and Lee, Minhwa and Yang, Zhichao and Yu, Hong},
+  
   journal={arXiv preprint arXiv:2305.01788},
+  
   year={2023}
+  
 }
 
 

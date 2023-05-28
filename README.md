@@ -48,14 +48,14 @@ dictionary_type = 'compensate' # GPT_gen (DG or CADG), compensate (WN+DG or WN+C
 
 
 # Citing
-        @article{kwon2023vision,
+    @article{kwon2023vision,
 
-                  title={Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information},
+              title={Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information},
 
-                  author={Kwon, Sunjae and Garodia, Rishabh and Lee, Minhwa and Yang, Zhichao and Yu, Hong},
+              author={Kwon, Sunjae and Garodia, Rishabh and Lee, Minhwa and Yang, Zhichao and Yu, Hong},
 
-                  journal={arXiv preprint arXiv:2305.01788},
+              journal={arXiv preprint arXiv:2305.01788},
 
-                  year={2023}}
+              year={2023}}
 
 

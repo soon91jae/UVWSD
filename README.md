@@ -7,11 +7,11 @@ This repo is the official implementation of our paper "Vision Meets Definitions:
 # Usage
 First, intsall OpenAI CLIP (https://github.com/openai/CLIP)
 
-$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+    $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 
-$ pip install ftfy regex tqdm
+    $ pip install ftfy regex tqdm
 
-$ pip install git+https://github.com/openai/CLIP.git
+    $ pip install git+https://github.com/openai/CLIP.git
 
 Then, download SemEval 2023 task 1 VWSD dataset (https://raganato.github.io/vwsd/).
 

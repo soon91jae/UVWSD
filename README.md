@@ -8,20 +8,26 @@ This repo is the official implementation of our paper "Vision Meets Definitions:
 First, intsall OpenAI CLIP (https://github.com/openai/CLIP)
 
 $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
+
 $ pip install ftfy regex tqdm
+
 $ pip install git+https://github.com/openai/CLIP.git
 
-Then, download SemEval 2023 task 1 VWSD dataset (https://raganato.github.io/vwsd/)
+Then, download SemEval 2023 task 1 VWSD dataset (https://raganato.github.io/vwsd/).
+
 Note that, the experiments conducted on **train split**
 
 Update the data_path 
+
 data_path = "../Experimental Codes/Dataset/VWSD" # data path
 
 Run the codes
 
 # Mode & model change
 You can change modes (GPT_gen, compenstae, wordnet) and CLIP models (ViT-B/32, ViT-L/14)
+
 Modes: 
+
   wordnet: use WordNet as a dicttionary (WN in the paper)
   GPT_gen: use GPT generated definitions
     - Definitions/GPT_Definitions.json (DG in the paper)

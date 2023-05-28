@@ -7,10 +7,8 @@ This repo is the official implementation of our paper "Vision Meets Definitions:
 # Usage
 First, intsall OpenAI CLIP (https://github.com/openai/CLIP)
 
-    $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
-
+    $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11
     $ pip install ftfy regex tqdm
-
     $ pip install git+https://github.com/openai/CLIP.git
 
 Then, download SemEval 2023 task 1 VWSD dataset (https://raganato.github.io/vwsd/).
@@ -31,15 +29,13 @@ Modes:
   wordnet: use WordNet as a dicttionary (WN in the paper)
   
   GPT_gen: use GPT generated definitions
-  
-    - Definitions/GPT_Definitions.json (DG in the paper)
-    
+
+    - Definitions/GPT_Definitions.json (DG in the paper)  
     - Definitions/GPT_Context_Definitions.json (CADG in the paper)
     
   compensate: use GPT generated definitions for OOV cases 
   
-    - Definitions/GPT_Definitions.json (WN+DG in the paper)
-    
+    - Definitions/GPT_Definitions.json (WN+DG in the paper)    
     - Definitions/GPT_Context_Definitions.json (WN+CADG in the paper)
     
 CLIP_MODEL = "ViT-B/32"

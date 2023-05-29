@@ -1,5 +1,5 @@
 # UVWSD
-This repo is the official implementation of our paper "Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information" published in ACL 2023.
+This repo is the official implementation of our paper "Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information" accepted in ACL 2023.
 
 # Approach
 <img width="1151" alt="Screen Shot 2023-05-28 at 3 39 28 PM" src="https://github.com/soon91jae/UVWSD/assets/9526659/40db64cc-2d72-4308-850d-5c9b624e8f35">

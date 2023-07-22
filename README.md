@@ -44,10 +44,20 @@ dictionary_type = 'compensate' # GPT_gen (DG or CADG), compensate (WN+DG or WN+C
 
 
 # Citing
-    @article{kwon2023vision,
-             title={Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information},
-             author={Kwon, Sunjae and Garodia, Rishabh and Lee, Minhwa and Yang, Zhichao and Yu, Hong},
-             journal={arXiv preprint arXiv:2305.01788},
-             year={2023}}
+    @inproceedings{kwon-etal-2023-vision,
+    title = "Vision Meets Definitions: Unsupervised Visual Word Sense Disambiguation Incorporating Gloss Information",
+    author = "Kwon, Sunjae  and
+      Garodia, Rishabh  and
+      Lee, Minhwa  and
+      Yang, Zhichao  and
+      Yu, Hong",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.88",
+    pages = "1583--1598"}
+
 
 
